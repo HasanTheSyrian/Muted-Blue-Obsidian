@@ -12,6 +12,7 @@
     --color-base-60: #999999;
     --color-base-70: #bababa;
     --color-base-100: #a6accd;
+    --table-border-color: #a6accd;
 
     --interactive-normal: #393e50;
     --slider-track-background: #393e50;
@@ -27,12 +28,14 @@
 
     --nav-item-background-active: none;
     --nav-item-background-hover: none;
-
-    
 }
 
 .nav-folder.mod-root .nav-folder > .nav-folder-children {
   border-left: var(--nav-indentation-guide-width) solid #2978ffb9;
+}
+
+div.tree-item-children.nav-folder-children{
+  border-inline-start-color: #2977ff;
 }
 
 .suggestion-item.is-selected {
@@ -56,7 +59,6 @@ textarea, input[type='text'], input[type='search'], input[type='email'], input[t
   }
 }
 
-
 textarea:active,
 input[type='text']:active,
 input[type='search']:active,
@@ -75,21 +77,8 @@ input[type='search']:focus-visible,
 input[type='email']:focus-visible,
 input[type='password']:focus-visible,
 input[type='number']:focus-visible {
-  /* box-shadow: 0 0 0 1px var(--background-modifier-border-focus); */
   box-shadow: none;
 }
-
-/* .clickable-icon.side-dock-ribbon-action:active,
-.mod-left-split .workspace-tab-header-inner-icon:active,
-.mod-right-split .workspace-tab-header-inner-icon:active {
-  box-shadow: -2px 0 0 0 #2979ff;
-} */
-
-/* .clickable-icon.side-dock-ribbon-action:focus,
-.mod-left-split .workspace-tab-header-inner-icon:focus,
-.mod-right-split .workspace-tab-header-inner-icon:focus {
-  box-shadow: -2px 0 0 0 #2979ff;
-} */
 
 .workspace-tab-header.is-active {
   box-shadow: inset 0px -1px 0 #2979ff;
@@ -99,7 +88,6 @@ input[type='number']:focus-visible {
 .vertical-tab-header-group-title {
   color: #2979ff;
 }
-
 
 .nav-file-title.is-active,
 .nav-folder-title.is-active {
@@ -125,6 +113,7 @@ input[type='number']:focus-visible {
     --color-base-60: #999999;
     --color-base-70: #bababa;
     --color-base-100: #a6accd;
+    --table-border-color: #a6accd;
 
     --interactive-normal: #393e50;
     --slider-track-background: #393e50;
@@ -140,12 +129,14 @@ input[type='number']:focus-visible {
 
     --nav-item-background-active: none;
     --nav-item-background-hover: none;
-
-    
 }
 
 .nav-folder.mod-root .nav-folder > .nav-folder-children {
   border-left: var(--nav-indentation-guide-width) solid #2978ffb9;
+}
+
+div.tree-item-children.nav-folder-children{
+  border-inline-start-color: #4187ff;
 }
 
 .suggestion-item.is-selected {
@@ -188,21 +179,8 @@ input[type='search']:focus-visible,
 input[type='email']:focus-visible,
 input[type='password']:focus-visible,
 input[type='number']:focus-visible {
-  /* box-shadow: 0 0 0 1px var(--background-modifier-border-focus); */
   box-shadow: none;
 }
-
-/* .clickable-icon.side-dock-ribbon-action:active,
-.mod-left-split .workspace-tab-header-inner-icon:active,
-.mod-right-split .workspace-tab-header-inner-icon:active {
-  box-shadow: -2px 0 0 0 #2979ff;
-} */
-
-/* .clickable-icon.side-dock-ribbon-action:focus,
-.mod-left-split .workspace-tab-header-inner-icon:focus,
-.mod-right-split .workspace-tab-header-inner-icon:focus {
-  box-shadow: -2px 0 0 0 #2979ff;
-} */
 
 .workspace-tab-header.is-active {
   box-shadow: inset 0px -1px 0 #2979ff;
@@ -213,7 +191,6 @@ input[type='number']:focus-visible {
   color: #2979ff;
 }
 
-
 .nav-file-title.is-active,
 .nav-folder-title.is-active {
   color: #2979ff;
@@ -222,4 +199,5 @@ input[type='number']:focus-visible {
 .workspace-leaf.mod-active .tree-item-self.has-focus {
   box-shadow: none;
 }
+
 }
